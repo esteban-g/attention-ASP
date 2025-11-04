@@ -99,7 +99,5 @@ Before running the main script, you must provide the specialized vocabularies.
     [10.026835   -0.24686176 -0.51120406]]
 
     ```
-    <img width="1600" height="1400" alt="Figure_1_MIE2026" src="https://github.com/user-attachments/assets/cb823e5d-14d7-482d-ba5b-af042890ed55" />
-
-    ![alt text](https://github.com/esteban-g/attention-ASP/tree/main/blob/main/img/Figure_1_MIE2026.png?raw=true)
-    ![Figure 1 Zoom](img/Figure_1_MIE2026_ZOOM.png)
+    
+    ![Figure 1 Heatmap](img/Figure_1_MIE2026.png)
