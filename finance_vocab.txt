@@ -1,0 +1,4 @@
+stock
+market
+investment
+crypto
