@@ -73,3 +73,31 @@ Before running the main script, you must provide the specialized vocabularies.
     ```
 
 ### Example Output
+    ```
+        --- Input ---
+    Sample Text: When I go to football practice, I usually feel a bit out of place.Even though I'm on the field with the other kids, I often find myself distracted.Sometimes I just sit on the bench and scroll through my phone instead of joining the game.I try to play, but it's hard to focus, and I don't feel very good when I'm out there.It gets even worse when Leo arrives-he's really fast and loud, and when he's around, I feel like I don't belong at all.I know the coaches want me to participate more, but it's not easy.I feel like I'm just there, not really part of the team.
+
+    --- Output ---
+
+    --- Concentration Score per Specialized Head (Scaled [0, 1]) ---
+    **TIME      ** Score: 0.999158
+    **PLACE     ** Score: 0.996610
+    **PEOPLE    ** Score: 0.992941
+    **ACTIVITY  ** Score: 0.996844
+    --------------------------------------------------
+    Standard Heads Scaled Dot-Product Scores Shape (B, H_std, S, S): torch.Size([1, 4, 139, 139])
+    Specialized Heads Boosted Scaled Dot-Product Scores Shape (B, H_spec, S, S): torch.Size([1, 4, 139, 139])
+
+    --- Scaled Dot-Product Scores (Standard Heads, First Head, Top-Left 3x3 Slice) ---
+    [[-0.6269649   0.10452973  0.03445041]
+    [ 0.19512819 -0.10101509  0.20195116]
+    [-0.18912654  0.6461076  -0.5914499 ]]
+
+    --- Boosted Scaled Dot-Product Scores (Specialized Heads, First Head, Top-Left 3x3 Slice) ---
+    [[ 9.622966    0.1823554  -0.80838925]
+    [10.092496   -0.50624293  0.2635796 ]
+    [10.026835   -0.24686176 -0.51120406]]
+
+    ```
+
+    ![alt text](https://github.com/esteban-g/attention-ASP/tree/main/blob/main/img/Figure_1_MIE2026.png?raw=true)
