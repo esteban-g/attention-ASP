@@ -101,3 +101,4 @@ Before running the main script, you must provide the specialized vocabularies.
     ```
 
     ![alt text](https://github.com/esteban-g/attention-ASP/tree/main/blob/main/img/Figure_1_MIE2026.png?raw=true)
+    ![Figure 1 Zoom](img/Figure_1_MIE2026_ZOOM.png)
